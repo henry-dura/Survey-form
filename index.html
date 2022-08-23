@@ -7,7 +7,19 @@
     <title>Survey_form</title>
 </head>
 <body>
-    <h1>We are in Microverse Trial</h1>
-    <h2>we are here</h2>
+    <h1 id="title">Microverse survey Form</h1>
+    <p id="description">We are a coding Academy</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name:<input type="text" id="name" required placeholder="Enter your Name"></label>
+        <label for="email" id="email-label">Email:<input type="email" id="email" required placeholder="Enter your Email"></label>
+        <label for="number" id="number-label">Age:<input type="number" id="number" min="18" max="40" placeholder="Enter Age"></label>
+
+        <select name="" id="dropdown">
+            <option value="Front End" >Front End</option>
+            <option value="Back End" >Back End</option>
+        </select>
+
+    </form>
+
 </body>
 </html>
