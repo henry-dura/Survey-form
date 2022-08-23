@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Survey_form</title>
 </head>
 <body>
     <h1 id="title">Microverse survey Form</h1>
     <p id="description">We are a coding Academy</p>
     <form action="" id="survey-form">
+        <fieldset>
         <label for="name" id="name-label">Name:<input type="text" id="name" required placeholder="Enter your Name"></label>
         <label for="email" id="email-label">Email:<input type="email" id="email" required placeholder="Enter your Email"></label>
         <label for="number" id="number-label">Age:<input type="number" id="number" min="18" max="40" placeholder="Enter Age"></label>
-
+    </fieldset>
+    <fieldset>
         <select name="" id="dropdown">
             <option value="Front End" >Front End</option>
             <option value="Back End" >Back End</option>
         </select>
-        <label > <input type="radio" name="gender" value="male" class="default"/> Male </label>
-        <label > <input type="radio" name="gender" value="female"  class="default"/> Female </label>
-        <label > <input type="checkbox" value="javascript"> javascript </label>
-        <label > <input type="checkbox" value="php"> php </label>
-        <label > <input type="checkbox" value="python"> puthon </label>
+    </fieldset>
+    <fieldset>
+        <label class="default"> <input type="radio" name="gender" value="male" class="default"/> Male </label>
+        <label class="default"> <input type="radio" name="gender" value="female"  class="default"/> Female </label>
+    </fieldset>
+    <fieldset>
+        <label > <input type="checkbox" value="javascript" class="default"> javascript </label>
+        <label > <input type="checkbox" value="php" class="default"> php </label>
+        <label > <input type="checkbox" value="python" class="default"> puthon </label>
+    </fieldset>
+        <fieldset>
         <textarea> Any comments or suggestions? </textarea>
+    </fieldset>
         <button id="submit">Submit</button>
 
             

@@ -1,3 +1,39 @@
 label{
     display: block;
 }
+ body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+ }
+ input:not(.default),#dropdown{
+    width:100%;
+ }
+
+ #survey-form{
+    width: 50%;
+    margin: 20px auto;
+ }
+
+button{
+    background-color: green;
+    display: block;
+    margin-right: 50px;
+    float:right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:0;
+    width: 30%;
+    padding: 20px;
+    font-size: 20px;
+}
+textarea{
+    width: 70%;
+    height: 100px
+}
+h1,p{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+fieldset{
+    margin: 15px;
+}
